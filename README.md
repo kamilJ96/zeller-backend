@@ -4,8 +4,8 @@
 ## Getting Started
 Download the repo and install the necessary packages:
 
-    git clone @repo 
-    cd ./@repo
+    git clone https://github.com/kamilJ96/zeller-backend 
+    cd ./zeller-backend
     yarn install
 
 ## Build
