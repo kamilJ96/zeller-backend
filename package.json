@@ -5,16 +5,11 @@
   "author": "kamilj96 <96.kamil.j@gmail.com>",
   "license": "MIT",
   "private": true,
-  "type": "module",
   "scripts": {
     "build": "npx tsc",
     "execute": "yarn build && node ./dist/index.js",
     "test": "jest --silent",
     "cover": "yarn test --collect-coverage"
-  },
-  "directories": {
-    "src": "./src",
-    "bin": "./dist"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
